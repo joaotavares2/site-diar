@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diar</title>
+    <link rel="shortcut icon" type="x-icon" href="imgs/plantlogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-plant-line nav__logo-icon"></i>DIAR
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Início</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#project"  class="nav__link">Projeto</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products"  class="nav__link">Produto</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contatos</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- DARK MODE -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+            
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="imgs/teste.png" alt="" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Vai viajar? <br> Use <span class="diar">DIAR</span>
+                    </h1>
+                    <p class="home__description">
+                        A irrigação do futuro na palma da sua mão!
+                    </p>
+                    <a href="#about" class="button button--flex">Mais aqui <i class="ri-arrow-right-down-line button__icon"></i></a>
+                </div>
+                <div class="home__social">
+                    <span class="home__social-follow">Clique aqui</span>
+                    <div class="home__social-links">
+                        <a href="https://www.tiktok.com/@dispositivodiar" class="home__social-link" target="_blank"><i class="ri-tiktok-fill"></i></a>
+                        <a href="https://www.instagram.com/diar.rt/" class="home__social-link" target="_blank"><i class="ri-instagram-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- ================================================SOBRE=============================================== -->
+
+        <section class="about section containeir" id="about">
+
+            <div class="about__container grid">
+                <img src="imgs/parte sobre.png" alt="" class="about__img">
+
+                <div class="about_data">
+                    <h2 class="section__title about__title">
+                        Quem somos
+                    </h2>
+                    <p class="about__description">Nós ajudamos você a cuidar da sua planta, mesmo longe de casa.</p>
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-line about__details-icon"></i>
+                            Exclusivo e com custo-benefício;
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-line about__details-icon"></i>
+                            Feito por programadores de alto nível;
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-line about__details-icon"></i>
+                            Utilizamos o arduino, como a base do projeto;
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-line about__details-icon"></i>
+                            Nós fornecemos ajuda para proteger e cuidar de sua planta;
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-line about__details-icon"></i>
+                            Suporte completamente único e super rápido.
+                        </p>
+                    </div>
+                    <a href="#products" class="button--link button--flex ">
+                        Compre Aqui <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+<!-- ========================================PRODUTOS============================================ -->
+        <section class="product section container" id="project">
+            <h2 class="section__title-center">
+                Peças Utilizadas
+            </h2>
+
+            <p class="product__description">
+                Estas foram as peças essenciais para a realização do projeto.
+            </p>
+
+            <div class="product__container grid">
+
+                <article class="product__card">
+                    <img src="imgs/esp_8266.png" alt="">
+                    <h3 class="product__title">
+                        ESP 8266</h3>
+                    </article>
+    
+                    <article class="product__card">
+                        <img src="imgs/Placa_expansiva.png" alt="">
+                        <h3 class="product__title">
+                            Placa Expansiva</h3>
+                        </article>
+    
+                        <article class="product__card">
+                            <img src="imgs/rele.png" alt="">
+                            <h3 class="product__title">
+                                Rele</h3>
+                            </article>
+    
+                            <article class="product__card">
+                                <img src="imgs/sensor_de_umidade.png" alt="">
+                                <h3 class="product__title">
+                                    Sensor de Umidade </h3>
+                                </article>
+    
+                                <article class="product__card">
+                                    <img src="imgs/protoboard.png" alt="">
+                                    <h3 class="product__title">
+                                        Protoboard</h3>
+                                    </article>
+    
+                                    <article class="product__card">
+                                        <img src="imgs/jumpers.png" alt="">
+                                        <h3 class="product__title">
+                                            Jumpers</h3>
+                                        </article>
+    
+                                        <article class="product__card">
+                                            <img src="imgs/mangueira.png" alt="">
+                                            <h3 class="product__title">
+                                                Mangueira</h3>
+                                            </article>
+    
+                                            <article class="product__card">
+                                                <img src="imgs/mini_bomba.png" alt="">
+                                                <h3 class="product__title">
+                                                    Mini-Bomba</h3>
+                                                </article>
+
+                                              
+
+                <!-- ============================COMPONENTES====================== -->
+
+                
+
+                
+               
+            </div>
+
+            
+        </section>
+
+        <section class="product section container" id="products">
+            <h2 class="section__title-center">
+                Nosso Produto
+            </h2>
+
+            <p class="product__description">
+                Escolha a melhor versão para você e para o seu dia a dia!
+            </p>
+
+            <div class="product__container1">
+
+                <article class="product__card1">
+                    
+                    
+                    
+                    
+                    <img src="imgs/watering.png" alt="" class="product__img1">  
+                    <h3 class="product__title">
+                        Irrigador automático</h3>
+                        <span class="product__price">R$199,99</span>
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                </article>
+                
+
+                
+               
+            </div>
+        </section>
+
+        
+
+        <!-- =========================CONTATOS==================================== -->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">Alguma dúvida? <br> Entre em contato conosco.</h2>
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">
+                                Nos chame nesse número:
+                            </h3>
+                            <span class="contact__description">
+                                <i class="ri-customer-service-2-fill contact__icon"></i>
+                                +55 11 94406-5797
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">
+                                Envie uma mensagem para nosso email:
+                            </h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-send-fill contact__icon"></i>
+                                projetodiar@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Email</label>
+                        </div>
+
+                        <div class="contact__content">
+                            <input type="text" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Assunto</label>
+                        </div>
+
+                        <div class="contact__content contact__area">
+                            <textarea name="message" placeholder=" "  class="contact__input"></textarea>
+                            <label for="" class="contact__label">Mensagem</label>
+                        </div>
+                    </div>
+                    <button class="button button--flex">
+                        Enviar
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class="ri-plant-line footer__logo-icon"></i> DIAR
+                </a>
+
+                <h3 class="footer__title">Nos siga nas redes sociais para mais novidades.</h3>
+
+
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Nosso endereço</h3>
+                <ul class="footer__data">
+                    <li class="footer_information">R. Cachoeira Poraquê, 326 - Raposo Tavares, São Paulo - SP, 05574-450</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Redes sociais</h3>
+                <ul class="footer__data">
+                    
+                    <div class="footer__social">
+                        <a href="https://www.instagram.com/diar.rt/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@dispositivodiar" class="footer__social-link">
+                            <i class="ri-tiktok-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Tipos de pagamento</h3>
+               
+                <div class="footer__cards">
+                    <img src="imgs/card1.png" alt="" class="footer__card">
+                    <img src="imgs/card2.png" alt="" class="footer__card">
+                    <img src="imgs/card3.png" alt="" class="footer__card">
+                    <img src="imgs/card4.png" alt="" class="footer__card" >
+                </div>
+            </div> 
+        
+        </div>
+        <p class="footer__copy">&#169; DIAR. All rights reserved</p>
+    </footer>
+
+
+    <!-- ===========SCROLL UP================= -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+    <!-- ===========SCROLL REVEAL============= -->
+    <script src="scrollreveal.min.js"></script>
+    <!-- ===========MAIN JS=================== -->
+    <script src="main.js"></script>
+</body>
+</html>
